@@ -1,4 +1,4 @@
-# Optimization Algorithms Comparison on CIFAR-10
+# Optimization Comparison on CIFAR-10
 
 This project benchmarks and analyzes the performance of various optimization algorithms for training a shallow neural network on the CIFAR-10 image classification task. The goal is to evaluate convergence behavior, generalization performance, and computational efficiency across optimizers.
 
