@@ -2,7 +2,7 @@
 
 This project benchmarks and analyzes the performance of various optimization algorithms for training a shallow neural network on the CIFAR-10 image classification task. The goal is to evaluate convergence behavior, generalization performance, and computational efficiency across optimizers.
 
-## 📌 Project Overview
+## Project Overview
 
 Modern deep learning heavily relies on optimization algorithms to train models efficiently. In this project, we implemented and compared the following optimizers:
 
@@ -17,7 +17,7 @@ The experiments were conducted on a shallow feedforward neural network using the
 
 ---
 
-## 🔧 Tech Stack & Tools
+## Tech Stack & Tools
 
 - **Python 3.10+**
 - **TensorFlow / Keras** – Neural network implementation & training
@@ -28,7 +28,7 @@ The experiments were conducted on a shallow feedforward neural network using the
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 - **CIFAR-10**: A standard benchmark dataset consisting of 60,000 32×32 color images across 10 classes.
 - Split: **70% train**, **15% validation**, **15% test**
@@ -36,7 +36,7 @@ The experiments were conducted on a shallow feedforward neural network using the
 
 ---
 
-## ⚙️ Optimizers Implemented
+## Optimizers Implemented
 
 | Optimizer                | Key Feature                                      |
 |--------------------------|--------------------------------------------------|
@@ -49,7 +49,7 @@ The experiments were conducted on a shallow feedforward neural network using the
 
 ---
 
-## 📈 Evaluation Metrics
+## Evaluation Metrics
 
 - **Training/Validation/Test Accuracy**
 - **Training/Validation Loss Curves**
@@ -58,7 +58,7 @@ The experiments were conducted on a shallow feedforward neural network using the
 
 ---
 
-## 🧪 Key Results
+## Key Results
 
 | Optimizer      | Test Accuracy | Notes                                       |
 |----------------|---------------|---------------------------------------------|
@@ -71,7 +71,7 @@ The experiments were conducted on a shallow feedforward neural network using the
 
 ---
 
-## 📉 Visualizations
+## Visualizations
 
 - **Loss vs Epochs** for each optimizer
 - **Accuracy vs Epochs**
@@ -80,7 +80,7 @@ The experiments were conducted on a shallow feedforward neural network using the
 
 ---
 
-## 🧠 Insights & Learnings
+## Insights & Learnings
 
 - Optimizer performance is highly dependent on network depth, architecture, and learning rate configuration.
 - Nadam consistently offered better convergence and generalization across runs.
